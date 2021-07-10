@@ -1,0 +1,13 @@
+[package]
+name = "ronin"
+version = "0.1.0"
+authors = ["mntcloud <40216914+mntcloud@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = { version = "0.14.7", features = ["full"] }
+hyper-tls = "0.5.0"
+serde = { version = "1.0.126", features = ["derive"] }
+serde_json = "1.0.64"
